@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Sample RSS Feed</title>
+  <link>http://www.example.com</link>
+  <description>This is a sample RSS feed.</description>
+  <language>en-us</language>
+  <pubDate>Tue, 23 Jan 2024 12:00:00 +0000</pubDate>
+  <lastBuildDate>Tue, 23 Jan 2024 13:00:00 +0000</lastBuildDate>
+  <ttl>60</ttl>
+
+  <item>
+    <title>First Sample Article</title>
+    <link>http://www.example.com/article1</link>
+    <description>This is the first sample article. It contains some interesting information.</description>
+    <pubDate>Tue, 23 Jan 2024 10:00:00 +0000</pubDate>
+    <guid>http://www.example.com/article1</guid>
+  </item>
+
+  <item>
+    <title>Second Sample Article</title>
+    <link>http://www.example.com/article2</link>
+    <description>Here is the second sample article, with more details.</description>
+    <pubDate>Tue, 23 Jan 2024 11:00:00 +0000</pubDate>
+    <guid>http://www.example.com/article2</guid>
+    <enclosure url="http://www.example.com/audio.mp3" length="1234567" type="audio/mpeg" />
+  </item>
+
+  <item>
+    <title>Third Sample Article with HTML</title>
+    <link>http://www.example.com/article3</link>
+    <description><![CDATA[
+      <p>This is the third sample article, <strong>with HTML</strong>.</p>
+      <img src="http://www.example.com/image.jpg" alt="Sample Image" />
+    ]]></description>
+    <pubDate>Tue, 23 Jan 2024 12:00:00 +0000</pubDate>
+    <guid>http://www.example.com/article3</guid>
+  </item>
+
+</channel>
+</rss>
