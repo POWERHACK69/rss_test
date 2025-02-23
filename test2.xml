@@ -1,1 +1,27 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>Your YouTube Channel Title</title>
+<link>https://www.youtube.com/@-RedIndieGames</link>
+<description>This is my YouTube channel description.</description>
+<image>
+<url></url>
+<title>Your YouTube Channel Title</title>
+<link>https://www.youtube.com/@-RedIndieGames</link>
+</image>
+<item>
+<title>Your First Video Title</title>
+<link>https://www.youtube.com/watch?v=Whq9x9gQj_0</link>
+<description>This is a description of your first video.</description>
+<pubDate>Mon, 21 Jan 2024 10:00:00 +0000</pubDate>
+<media:content url="http://example.com/video.mp4" type="video/mp4" />
+</item>
+<item>
+<title>Your Second Video Title</title>
+<link>https://www.youtube.com/watch?v=L1R5r1iVuoE&t=32s</link>
+<description>This is a description of your second video.</description>
+<pubDate>Tue, 22 Jan 2024 11:00:00 +0000</pubDate>
+<media:content url="http://example.com/video.mp4" type="video/mp4" />
+</item>
+</channel>
+</rss>
